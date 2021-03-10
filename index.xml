@@ -14,7 +14,8 @@
       
       <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/segundod%C3%ADa/</guid>
       <description>Hoy, para recuperar tiempo perdido, me he puesto manos a la obra con las demos del servidor de correo. Nuestro mejor amigo durante esta UF será &amp;raquo;&amp;gt; poste.io .
-Para acceder a la administración, lo haremos a través de demo.poste.io/admin. (https://demo.poste.io/admin/login#admin@poste.io;admin) Para acceder al cliente, lo haremos a través de /webmail.
+Para acceder a la administración, lo haremos a través de demo.poste.io/admin. (https://demo.poste.io/admin/login#admin@poste.io;admin)
+Para acceder al cliente, lo haremos a través de /webmail.
  La idea es simple:
 Creamos dominios desde la opción de &amp;ldquo;Virtual domains&amp;rdquo;. Creamos usuarios desde la opción &amp;ldquo;Email accounts&amp;rdquo;.</description>
     </item>
