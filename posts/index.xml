@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Diario de bitácora, by Sergio.</title>
+    <link>https://blogm7.github.io/posts/</link>
+    <description>Recent content in Posts on Diario de bitácora, by Sergio.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 05 Mar 2021 16:56:55 +0100</lastBuildDate><atom:link href="https://blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primer día, warm up de github.</title>
+      <link>https://blogm7.github.io/posts/primerd%C3%ADa/</link>
+      <pubDate>Fri, 05 Mar 2021 16:56:55 +0100</pubDate>
+      
+      <guid>https://blogm7.github.io/posts/primerd%C3%ADa/</guid>
+      <description>Para empezar, y como he faltado a la última pero primera lección sobre el poste.io, empezaré con el warm up del github pages que el profesor nos ha facilitado e indicado.
+El objetivo de esta práctica es el crear un gothub pages que muestre porpantalla un mensaje que el profesor nos ha indicado.
+Los pasos a seguir han sido los siguientes:
+1.- Crear un repositorio de github.
+2.- Clonar el repositoro.</description>
+    </item>
+    
+  </channel>
+</rss>
