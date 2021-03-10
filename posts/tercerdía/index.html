@@ -18,21 +18,34 @@
 <article>
   <header>
     <h1>Tercer día, instalación de docker y primeros pasos.</h1>
-    <time datetime="2021-03-06T18:22:30&#43;01:00">March 06, 2021</time>
+    <time datetime="2021-03-05T18:22:30&#43;01:00">March 05, 2021</time>
   </header>
-  <p>Hoy, empecé por instalar docker en mi máquina virtual debian favorita, intc.
-Todo se ha de hacer desde sudo, o desde root.</p>
+  <p>Hoy, empecé por instalar docker en mi máquina virtual debian favorita, <em><strong>intc</strong></em> .
+Todo se ha de hacer desde <em><strong>sudo, o desde root</strong></em>.</p>
 <p>Lo comandos que he empleado, han sido los siguientes:</p>
 <p>sudo passwd user1 (para aquellos que no saben cambiar la pass del user1  ;) )</p>
-<p>sudo apt-get update</p>
-<p>sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>
+<p><em><strong>sudo apt-get update</strong></em></p>
+<p><em><strong>sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common</strong></em></p>
 <hr>
-<p>Tras instalar los paquetes, instalaremos docker con los siguientes comandos:</p>
+<p>Tras instalar los paquetes, <em><strong>instalaremos docker con los siguientes comandos</strong></em>:</p>
 <p>curl -fsSL <a href="https://download.docker.com/linux/debian/gpg">https://download.docker.com/linux/debian/gpg</a> | sudo apt-key add –</p>
 <p>sudo add-apt-repository &ldquo;deb [arch=amd64] <a href="https://download.docker.com/linux/debian">https://download.docker.com/linux/debian</a> buster stable&rdquo;</p>
-<p>Actualizamos el repositorio con nuestro famoso sudo apt-get update.</p>
-<p>Instalamos el motor de docker con &gt; sudo apt-get install docker-ce docker-ce-cli containerd.io</p>
+<p>Actualizamos el repositorio con nuestro famoso <em><strong>sudo apt-get update</strong></em>.</p>
+<p>Instalamos el motor de docker con &gt; <em><strong>sudo apt-get install docker-ce docker-ce-cli containerd.io</strong></em></p>
 <p>Y para comprobar su estado, el conocido &ldquo;systemct status&rdquo; nos valdrá.</p>
+<hr>
+<p>Hoy, también, y para adelantar tarea, comenzaré con la <em><strong>creación</strong></em>, ¡es muy simple!</p>
+<p>Primero, <em><strong>crearemos un volumen de docker</strong></em> &raquo;&raquo;</p>
+<p>docker volume create nombre_del_vol</p>
+<p>Luego, <em><strong>pondremos en marcha el servidor</strong></em>, gracias a nuestros amigos de poste.io &raquo;&raquo;</p>
+<p>docker run -p 443:443 -e TZ=Europe/Andorra -v nombre_del_vol:/data &ndash;name &ldquo;nombredelservidor&rdquo; -h &ldquo;nombredeldominio.algo&rdquo; -t analogic/poste.io</p>
+<p>De esta manera, <em><strong>ya tendremos, prácticamente, nuestro servidor de correo en marcha</strong></em>.</p>
+<hr>
+<p><em><strong>Comandos básicos de docker</strong></em>:</p>
+<p>-docker ps -a &gt; nos muestra un listado de nuestros volúmenes aka servidores.</p>
+<p>-docker start contenedor_name &gt; pondremos en marcha un contenedor detenido.</p>
+<p>-docker stop &gt; detendremos nuestro contenedor.</p>
+<p>-docker rm &gt; nos despediremos de nuestro contenedor, para siempre.</p>
 
 </article>
 
