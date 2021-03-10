@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Tercer día, instalación de docker y primeros pasos. | Diario de bitácora, by Sergio.</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.75.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://sergioacostaporto.github.io/blogm7.github.io/css/index.css">
+<link rel="canonical" href="https://sergioacostaporto.github.io/blogm7.github.io/posts/tercerd%C3%ADa/">
+<link rel="alternate" type="application/rss+xml" href="" title="Diario de bitácora, by Sergio.">
+
+<header>
+  
+    <a href="https://sergioacostaporto.github.io/blogm7.github.io/" class="title">Diario de bitácora, by Sergio.</a>
+  
+  
+</header>
+
+<article>
+  <header>
+    <h1>Tercer día, instalación de docker y primeros pasos.</h1>
+    <time datetime="2021-03-06T18:22:30&#43;01:00">March 06, 2021</time>
+  </header>
+  <p>Hoy, empecé por instalar docker en mi máquina virtual debian favorita, intc.
+Todo se ha de hacer desde sudo, o desde root.</p>
+<p>Lo comandos que he empleado, han sido los siguientes:</p>
+<p>sudo passwd user1 (para aquellos que no saben cambiar la pass del user1  ;) )</p>
+<p>sudo apt-get update</p>
+<p>sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common</p>
+<hr>
+<p>Tras instalar los paquetes, instalaremos docker con los siguientes comandos:</p>
+<p>curl -fsSL <a href="https://download.docker.com/linux/debian/gpg">https://download.docker.com/linux/debian/gpg</a> | sudo apt-key add –</p>
+<p>sudo add-apt-repository &ldquo;deb [arch=amd64] <a href="https://download.docker.com/linux/debian">https://download.docker.com/linux/debian</a> buster stable&rdquo;</p>
+<p>Actualizamos el repositorio con nuestro famoso sudo apt-get update.</p>
+<p>Instalamos el motor de docker con &gt; sudo apt-get install docker-ce docker-ce-cli containerd.io</p>
+<p>Y para comprobar su estado, el conocido &ldquo;systemct status&rdquo; nos valdrá.</p>
+
+</article>
+
+
+
+</html>

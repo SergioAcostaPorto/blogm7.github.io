@@ -21,6 +21,21 @@ Creamos dominios desde la opción de &amp;ldquo;Virtual domains&amp;rdquo;. Crea
     </item>
     
     <item>
+      <title>Tercer día, instalación de docker y primeros pasos.</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/tercerd%C3%ADa/</link>
+      <pubDate>Sat, 06 Mar 2021 18:22:30 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/tercerd%C3%ADa/</guid>
+      <description>Hoy, empecé por instalar docker en mi máquina virtual debian favorita, intc. Todo se ha de hacer desde sudo, o desde root.
+Lo comandos que he empleado, han sido los siguientes:
+sudo passwd user1 (para aquellos que no saben cambiar la pass del user1 ;) )
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl gnupg2 software-properties-common
+ Tras instalar los paquetes, instalaremos docker con los siguientes comandos:
+curl -fsSL https://download.</description>
+    </item>
+    
+    <item>
       <title>Primer día, warm up de github.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/primerd%C3%ADa/</link>
       <pubDate>Fri, 05 Mar 2021 16:56:55 +0100</pubDate>
