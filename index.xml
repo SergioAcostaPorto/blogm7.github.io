@@ -6,7 +6,16 @@
     <description>Recent content on Diario de bitácora, by Sergio.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 18:22:30 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Mar 2021 20:44:57 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cuartodía</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/cuartod%C3%ADa/</link>
+      <pubDate>Mon, 08 Mar 2021 20:44:57 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/cuartod%C3%ADa/</guid>
+      <description>Esto es así, como una prueba para que s esuba nada más</description>
+    </item>
+    
     <item>
       <title>Tercer día, instalación de docker y primeros pasos.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/tercerd%C3%ADa/</link>
