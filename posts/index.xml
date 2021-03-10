@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Diario de bitácora, by Sergio.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Mar 2021 16:56:55 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Mar 2021 18:22:21 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Segundo día, warm up con poste.io .</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/segundod%C3%ADa/</link>
+      <pubDate>Mon, 08 Mar 2021 18:22:21 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/segundod%C3%ADa/</guid>
+      <description>Hoy, para recuperar tiempo perdido, me he puesto manos a la obra con las demos del servidor de correo. Nuestro mejor amigo durante esta UF será &amp;raquo;&amp;gt; poste.io .
+Para acceder a la administración, lo haremos a través de demo.poste.io/admin. (https://demo.poste.io/admin/login#admin@poste.io;admin) Para acceder al cliente, lo haremos a través de /webmail.
+ La idea es simple:
+Creamos dominios desde la opción de &amp;ldquo;Virtual domains&amp;rdquo;. Creamos usuarios desde la opción &amp;ldquo;Email accounts&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>Primer día, warm up de github.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/primerd%C3%ADa/</link>
