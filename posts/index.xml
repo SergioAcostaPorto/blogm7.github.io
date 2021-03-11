@@ -6,7 +6,21 @@
     <description>Recent content in Posts on Diario de bitácora, by Sergio.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Mar 2021 20:44:57 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 16:15:54 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quintodía</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/quintod%C3%ADa/</link>
+      <pubDate>Tue, 09 Mar 2021 16:15:54 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/quintod%C3%ADa/</guid>
+      <description>Las leyes del tiempo son relativas en este blog: Aunque estos días hayan sido cuando más paliza se le ha dado al github y hugo, ya hay cosas de días anteriores. Pero tengamos en cuenta que hay un proverbio que dice &amp;ldquo;El tiempo es el mejor autor: siempre encuentra un final perfecto&amp;rdquo;.
+Necesitamos tres cosas:
+  Hugo.
+  Github
+  Homebrew.
+   Para instalar Hugo, necesitamos Homebrew.</description>
+    </item>
+    
     <item>
       <title>Cuarto día, pruebas con mi propio servidor.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/cuartod%C3%ADa/</link>
