@@ -13,8 +13,11 @@
       <pubDate>Mon, 08 Mar 2021 20:44:57 +0100</pubDate>
       
       <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/cuartod%C3%ADa/</guid>
-      <description>Esto es así, como una prueba para que s esuba nada más
-A ver, algo arriba.</description>
+      <description>Desde el último día, como ya tengo mi servidor de correo montado, ahora solo faltaría configurarlo.
+Para acceder a mi servidor de correo, lo haría, por primera vez, con pi_de_mv:443.
+Tras haber creado mi cuenta de admin, el siguiente paso, será familiarizarnos con el dashboard. En el dashboard, nos haremos muy amigos de dos opciones:    Email Accounts
+  Virtual domains
+  En virtual domains, crearemos nuestros dominios.</description>
     </item>
     
     <item>
