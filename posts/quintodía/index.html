@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Quinto día, batallas con brew, hugo y github. | Diario de bitácora, by Sergio.</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.75.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://sergioacostaporto.github.io/blogm7.github.io/css/index.css">
+<link rel="canonical" href="https://sergioacostaporto.github.io/blogm7.github.io/posts/quintod%C3%ADa/">
+<link rel="alternate" type="application/rss+xml" href="" title="Diario de bitácora, by Sergio.">
+
+<header>
+  
+    <a href="https://sergioacostaporto.github.io/blogm7.github.io/" class="title">Diario de bitácora, by Sergio.</a>
+  
+  
+</header>
+
+<article>
+  <header>
+    <h1>Quinto día, batallas con brew, hugo y github.</h1>
+    <time datetime="2021-03-09T15:59:30&#43;01:00">March 09, 2021</time>
+  </header>
+  <p>Las leyes del tiempo son relativas en este blog: Aunque estos días hayan sido cuando más paliza se le ha dado al github y hugo, ya hay cosas de días anteriores. Pero tengamos en cuenta que hay un proverbio que dice &ldquo;El tiempo es el mejor autor: siempre encuentra un final perfecto&rdquo;.</p>
+<p>Necesitamos tres cosas:</p>
+<ul>
+<li>
+<p>Hugo.</p>
+</li>
+<li>
+<p>Github</p>
+</li>
+<li>
+<p>Homebrew.</p>
+</li>
+</ul>
+<hr>
+<p>Para instalar Hugo, necesitamos Homebrew. Homebrew se instala siguiendo el siguiente link:</p>
+<p><a href="https://brew.sh/">https://brew.sh/</a></p>
+<p>Es un poco lioso, pero al final sale.</p>
+<hr>
+<p>Para instalar hugo, simplemente habremos de hacer <em><strong>&ldquo;brew install hugo&rdquo;</strong></em>.</p>
+<p><em><strong>Comandos básicos de hugo</strong></em>:</p>
+<p>-hugo new site nombre_del_site &gt; Nos generará el esqueleto de nuestra &ldquo;página web&rdquo;.</p>
+<p>Dentro, hay carpetas muy importantes: content, themes, public&hellip;</p>
+<p>En <em><strong>themes</strong></em> irá nuestro theme que habremos buscado en hugo. (Habremos de hacer un git clone aquÍ).</p>
+<p>En content irán nuestras páginas blog:</p>
+<p>-hugo new posts/nombre_del_post.md &gt; crearemos un post, que se almacenará en la carpeta content.</p>
+<p>-hugo -t nombre_plantilla &gt; toda la info de nuestro blog irá a la carpeta public. Es el contenido estático de nuestra página.</p>
+<hr>
+<p><em><strong>Comandos básicos de github</strong></em></p>
+<p>git add . &gt; añadimos todo el contenido de la carpeta, o algo en concreto.</p>
+<p>git commit -m &ldquo;msg&rdquo; &gt; prepararemos el contenido, justificando el envío con un mensaje.</p>
+<p>git push &gt; empujamos el contenido a nuestro github.</p>
+<p>git clone &gt; clonamos un repositorio de github.</p>
+<hr>
+<p>Una combinación de hugo y git nos hará tener una buena estructura en github.</p>
+<p>Recordemos configurar bien el archivo config.toml de nuestra carpeta de hugo.</p>
+<p><img src="https://i.gyazo.com/e1b4e53e2396e490301fe7b2a609429b.png" alt="toml"></p>
+<hr>
+<p>Una práctica sana sería el seguir el siguiente vídeo, ya que aunque nos ea del todo correcto, nos hace una buena introducción al github pages + hugo + git.</p>
+
+</article>
+
+
+
+</html>
