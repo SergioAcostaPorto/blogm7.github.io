@@ -6,7 +6,22 @@
     <description>Recent content on Diario de bitácora, by Sergio.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 09 Mar 2021 16:15:54 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 14:58:06 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sexto día, batallas con homebrew y mkcert.</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/sextod%C3%ADa/</link>
+      <pubDate>Mon, 15 Mar 2021 14:58:06 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/sextod%C3%ADa/</guid>
+      <description>A día de hoy, la batalla a contar será sobre homebrew y mkcert.
+Los requisitos para certificar nuestro servidor, son: git, homebrew y kmcert.
+ Instalación de Homebrew:
+Necesitamos tener GIT de base.
+ /bin/bash -c &amp;ldquo;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&amp;quot;    test -d ~/.linuxbrew &amp;amp;&amp;amp; eval $(~/.linuxbrew/bin/brew shellenv)
+  test -d /home/linuxbrew/.linuxbrew &amp;amp;&amp;amp; eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+  test -r ~/.bash_profile &amp;amp;&amp;amp; echo &amp;ldquo;eval $($(brew &amp;ndash;prefix)/bin/brew shellenv)&amp;rdquo; &amp;raquo;~/.bash_profile</description>
+    </item>
+    
     <item>
       <title>Quinto día, batallas con github y hugo.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/quintod%C3%ADa/</link>

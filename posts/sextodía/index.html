@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Sexto día, batallas con homebrew y mkcert. | Diario de bitácora, by Sergio.</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.75.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://sergioacostaporto.github.io/blogm7.github.io/css/index.css">
+<link rel="canonical" href="https://sergioacostaporto.github.io/blogm7.github.io/posts/sextod%C3%ADa/">
+<link rel="alternate" type="application/rss+xml" href="" title="Diario de bitácora, by Sergio.">
+
+<header>
+  
+    <a href="https://sergioacostaporto.github.io/blogm7.github.io/" class="title">Diario de bitácora, by Sergio.</a>
+  
+  
+</header>
+
+<article>
+  <header>
+    <h1>Sexto día, batallas con homebrew y mkcert.</h1>
+    <time datetime="2021-03-15T14:58:06&#43;01:00">March 15, 2021</time>
+  </header>
+  <p>A día de hoy, la batalla a contar será sobre homebrew y mkcert.</p>
+<p>Los requisitos para certificar nuestro servidor, son: git, homebrew y kmcert.</p>
+<hr>
+<p><em><strong>Instalación de Homebrew</strong></em>:</p>
+<p>Necesitamos tener GIT de base.</p>
+<ul>
+<li>/bin/bash -c &ldquo;$(curl -fsSL <a href="https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)%22">https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;</a></li>
+</ul>
+<p><img src="https://i.gyazo.com/834da49d44565de4640e7c26054e868a.png" alt="a"></p>
+<ul>
+<li>
+<p>test -d ~/.linuxbrew &amp;&amp; eval $(~/.linuxbrew/bin/brew shellenv)</p>
+</li>
+<li>
+<p>test -d /home/linuxbrew/.linuxbrew &amp;&amp; eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)</p>
+</li>
+<li>
+<p>test -r ~/.bash_profile &amp;&amp; echo &ldquo;eval $($(brew &ndash;prefix)/bin/brew shellenv)&rdquo; &raquo;~/.bash_profile</p>
+</li>
+<li>
+<p>echo &ldquo;eval $($(brew &ndash;prefix)/bin/brew shellenv)&rdquo; &raquo;~/.profile</p>
+</li>
+</ul>
+<hr>
+<p><em><strong>Instalar MKCERT (para crear los certificados)</strong></em>:</p>
+<ul>
+<li>brew install mkcert</li>
+</ul>
+<p><img src="https://i.gyazo.com/0757e34211ea8c1ea0ad5fd86923191c.png" alt="b"></p>
+<hr>
+<p><em><strong>Configuración y obtención de certificado</strong></em>:</p>
+<ul>
+<li>mkcert -install (La primera vez veremos un unicode muy majo de un zorro aka firefox)</li>
+</ul>
+<p><img src="https://i.gyazo.com/42fd00d81c74e8a22a2c2a0c1e5472b8.png" alt="c"></p>
+<p>-Editamos el /etc/hosts, añadiendo a nuestra máquina el dominio de nuestro server (como &ldquo;por si acaso&rdquo;)</p>
+<p><img src="https://i.gyazo.com/610559da6f555dfc7fdca0f0a064e763.png" alt="e"></p>
+<ul>
+<li>mkcert pastcorvus.edu inte 10.5.2.14 &raquo; Generamos el certificado para esos nombres.</li>
+</ul>
+<p><img src="https://i.gyazo.com/05f347b502b88083c8a03ed928ebccca.png" alt="d"></p>
+<p>-Ahora, lo introduciremos en nuestro servidor, en el siguiente apartado:</p>
+<p><img src="https://i.gyazo.com/219dde9bba67db2c124f7b28fbca2d6d.png" alt="f"></p>
+<p>Aquí, debería de aparecernos la opción de buscar nuestros certificados.</p>
+<p><img src="https://i.gyazo.com/f91d638f2a24bc0e90c4427bf11d8fd0.png" alt="g"></p>
+<p>Para que los cambios tengan efecto, tenemos que reiniciar nuestra máquina. La próxima vez que accedamos&hellip; :</p>
+<p><img src="https://i.gyazo.com/158a292ce3120c85b3bf8cae103dab9c.png" alt="h"></p>
+<p>¡Y eso es todo para los certificados! :)</p>
+
+</article>
+
+
+
+</html>
