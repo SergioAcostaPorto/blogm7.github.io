@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Diario de bitácora, by Sergio.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Mar 2021 14:58:06 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Mar 2021 15:43:17 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Séptimo día, Thunderbird.</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/s%C3%A9ptimod%C3%ADa/</link>
+      <pubDate>Mon, 15 Mar 2021 15:43:17 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/s%C3%A9ptimod%C3%ADa/</guid>
+      <description>¡Bienvenidos a la última parte y práctica de nuestro servidor de correo!
+Hoy veremos&amp;hellip; (o intentaremos ver)
+***El cliente de escritorio, aka Thunderbird. ***
+ El comando mágico sería: sudo apt-get install thunderbird.  Mi problema surge a la hora de configurarlo:
+Al usar el comando thunderbird, recibo el error de no DISPLAY environment variable specified , tanto en la MV como en base a través de SSH. Tocando la configuración de /etc/thunderbird, tampoco he logrado ponerlo en marcha.</description>
+    </item>
+    
     <item>
       <title>Sexto día, batallas con homebrew y mkcert.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/sextod%C3%ADa/</link>
