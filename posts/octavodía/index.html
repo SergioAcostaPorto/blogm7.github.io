@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>Octav odía, curl. | Diario de bitácora, by Sergio.</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.75.1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://sergioacostaporto.github.io/blogm7.github.io/css/index.css">
+<link rel="canonical" href="https://sergioacostaporto.github.io/blogm7.github.io/posts/octavod%C3%ADa/">
+<link rel="alternate" type="application/rss+xml" href="" title="Diario de bitácora, by Sergio.">
+
+<header>
+  
+    <a href="https://sergioacostaporto.github.io/blogm7.github.io/" class="title">Diario de bitácora, by Sergio.</a>
+  
+  
+</header>
+
+<article>
+  <header>
+    <h1>Octav odía, curl.</h1>
+    <time datetime="2021-03-22T14:47:11&#43;01:00">March 22, 2021</time>
+  </header>
+  <p>Tras practicar, dejaré por aquí mi chuleta sobre los comandos curl.</p>
+<hr>
+<p><em><strong>Creacion de usuarios</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99 -d &lsquo;<a href="mailto:name=enfin&amp;email=enfin@pastcorvus.edu">name=enfin&amp;email=enfin@pastcorvus.edu</a>&amp;passwordPlaintext=Pimpollo99&rsquo; https://10.5.2.14/admin/api/v1/boxes</p>
+<p><em><strong>Creacion de dominios</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99 -d &lsquo;name=futurecorvus.edu&rsquo; https://10.5.2.14/admin/api/v1/domains</p>
+<p><em><strong>Cambiar contraseña</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99 -X &ldquo;PATCH&rdquo; -d &ldquo;passwordPlaintext=pimpollito&rdquo; https://10.5.2.14/admin/api/v1/boxes/enfin@pastcorvus.edu</p>
+<p><em><strong>Borrar cuenta</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99 -X &ldquo;DELETE&rdquo; https://10.5.2.14/admin/api/v1/boxes/nombre@dominio.edu</p>
+<p><em><strong>Activar/des cuenta</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99 &ndash;header &ldquo;Content-Type: application/json&rdquo; -X &ldquo;PATCH&rdquo; &ndash;data &lsquo;{&ldquo;superAdmin&rdquo;:true}&rsquo; https://10.5.2.14/admin/api/v1/boxes/nombre@dominio.edu</p>
+<hr>
+<p><em><strong>Cuota</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99 &ndash;header &ldquo;Content-Type: application/json&rdquo; -X &ldquo;PATCH&rdquo; &ndash;data &lsquo;{&ldquo;storageLimit&rdquo;:20}&rsquo; https://10.5.2.14/admin/api/v1/boxes/name@domain.edu   // {&ldquo;countlimit&rdquo;:X} Para número de mensajes.</p>
+<p><em><strong>Validacion</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@pastcorvus.edu">admin@pastcorvus.edu</a>:Pimpollo99  https://10.5.2.14/admin/api/v1/boxes/nombre@dominio.edu/quota</p>
+<hr>
+<p><em><strong>Checks</strong></em></p>
+<p>curl -v -k -u <a href="mailto:admin@elmeuprimerdomini.org">admin@elmeuprimerdomini.org</a>:noposesaquestapassword  https://10.28.1.100/admin/api/v1/domains</p>
+
+</article>
+
+
+
+</html>

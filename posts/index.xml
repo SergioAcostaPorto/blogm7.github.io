@@ -6,7 +6,26 @@
     <description>Recent content in Posts on Diario de bitácora, by Sergio.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Mar 2021 15:43:17 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 14:47:11 +0100</lastBuildDate><atom:link href="https://sergioacostaporto.github.io/blogm7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Octav odía, curl.</title>
+      <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/octavod%C3%ADa/</link>
+      <pubDate>Mon, 22 Mar 2021 14:47:11 +0100</pubDate>
+      
+      <guid>https://sergioacostaporto.github.io/blogm7.github.io/posts/octavod%C3%ADa/</guid>
+      <description>Tras practicar, dejaré por aquí mi chuleta sobre los comandos curl.
+ Creacion de usuarios
+curl -v -k -u admin@pastcorvus.edu:Pimpollo99 -d &amp;lsquo;name=enfin&amp;amp;email=enfin@pastcorvus.edu&amp;amp;passwordPlaintext=Pimpollo99&amp;rsquo; https://10.5.2.14/admin/api/v1/boxes
+Creacion de dominios
+curl -v -k -u admin@pastcorvus.edu:Pimpollo99 -d &amp;lsquo;name=futurecorvus.edu&amp;rsquo; https://10.5.2.14/admin/api/v1/domains
+Cambiar contraseña
+curl -v -k -u admin@pastcorvus.edu:Pimpollo99 -X &amp;ldquo;PATCH&amp;rdquo; -d &amp;ldquo;passwordPlaintext=pimpollito&amp;rdquo; https://10.5.2.14/admin/api/v1/boxes/enfin@pastcorvus.edu
+Borrar cuenta
+curl -v -k -u admin@pastcorvus.edu:Pimpollo99 -X &amp;ldquo;DELETE&amp;rdquo; https://10.5.2.14/admin/api/v1/boxes/nombre@dominio.edu
+Activar/des cuenta
+curl -v -k -u admin@pastcorvus.edu:Pimpollo99 &amp;ndash;header &amp;ldquo;Content-Type: application/json&amp;rdquo; -X &amp;ldquo;PATCH&amp;rdquo; &amp;ndash;data &amp;lsquo;{&amp;ldquo;superAdmin&amp;rdquo;:true}&amp;rsquo; https://10.</description>
+    </item>
+    
     <item>
       <title>Séptimo día, Thunderbird.</title>
       <link>https://sergioacostaporto.github.io/blogm7.github.io/posts/s%C3%A9ptimod%C3%ADa/</link>
